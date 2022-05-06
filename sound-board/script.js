@@ -13,9 +13,9 @@ sounds.forEach((sound) => {
     
   });
 
-  btn.addEventListener('mouseleave', ()=>{
-      document.getElementById(sound).pause()
-  })
+//   btn.addEventListener('mouseleave', ()=>{
+//       document.getElementById(sound).pause()
+//   })
 
   document.getElementById("buttons").appendChild(btn);
 });
