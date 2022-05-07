@@ -1,3 +1,5 @@
+//  Get key code from key press event. 
+
 const insert = document.getElementById('insert');
 
 window.addEventListener('keydown', (event)=>{
